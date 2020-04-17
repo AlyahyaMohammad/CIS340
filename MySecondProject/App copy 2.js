@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-export default function MyFirstApp() {
+export default function MyApp() {
   
   function getFullName (fName, mName, lName){
   return fName + " " + mName + " " + lName;

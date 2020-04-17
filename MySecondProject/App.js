@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
 
-export default function MyFirstApp() {
+ function MyApp() {
  return (
   <View>
      <Text>
@@ -18,9 +18,9 @@ export default function MultiComp(){
       flex: 1,
       justifyContent: "Center",
       alignItem: "Center"
-      
+
     }}>
-      <Text>  Welcome to My Class</Text>
+      <Text> Welcome to My Class </Text>
       <MyApp />
       <MyApp />
       <MyApp />
