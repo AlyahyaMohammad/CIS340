@@ -1,0 +1,13 @@
+import React, {Component} from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default class MyApp extends Component {
+  render() {
+  return (
+    <View style={{padding: 60}}>
+      <Text>Hello, I am Mohammad from CIS340!</Text>
+      <Text>I like programming</Text>
+    </View>
+  );
+}
+}
